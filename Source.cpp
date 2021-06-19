@@ -41,7 +41,7 @@ int main()
 {
 	menu();
 }
-
+ 
 void menu() {
 	setlocale(0, "");
 
@@ -54,12 +54,8 @@ void menu() {
 	int c = 0;
 	if (Uroven == 1 || Uroven == 2 || Uroven == 3) {
 
-
-
 		Logic();
 	}
-
-
 
 	else {
 
@@ -96,7 +92,6 @@ void menu() {
 	return;
 }
 
-
 void Logic()
 {
 
@@ -122,11 +117,7 @@ void Logic()
 				if (knopka != 2) knopka = 4;
 				break;
 
-
-
-
 			}
-
 
 		}
 
@@ -153,7 +144,6 @@ void Logic()
 	cin.ignore();
 }
 
-
 void eda() {
 	int x = 0;
 	int y = 0;
@@ -170,7 +160,6 @@ void eda() {
 
 	Arr[x + y * width] = -2;
 }
-
 
 void update()
 {
@@ -193,10 +182,6 @@ void update()
 
 }
 
-
-
-
-
 void Dvig(int x, int y) {
 	int x1 = headX + x;
 	int y1 = headY + y;
@@ -211,10 +196,6 @@ void Dvig(int x, int y) {
 		eda();
 	}
 
-
-
-
-
 	else if (Arr[x1 + y1 * width] != 0) {
 		game = false;
 	}
@@ -225,10 +206,6 @@ void Dvig(int x, int y) {
 
 
 }
-
-
-
-
 
 void Build()
 {
