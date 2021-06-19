@@ -1,4 +1,4 @@
-#include <stdlib.h>
+ï»¿#include <stdlib.h>
 #include <time.h>
 #include <iostream>
 #include <conio.h>
@@ -45,10 +45,10 @@ int main()
 void menu() {
 	setlocale(0, "");
 
-	cout << "Ââåäèòå óðîâåíü ñëîæíîñòè: " << endl << endl;
-	cout << "1 - Ëåãêî" << endl;
-	cout << "2 - Ñðåäíå" << endl;
-	cout << "3 - Ñëîæíî" << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑƒÑ€Ð¾Ð²ÐµÐ½ÑŒ ÑÐ»Ð¾Ð¶Ð½Ð¾ÑÑ‚Ð¸: " << endl << endl;
+	cout << "1 - Ð›ÐµÐ³ÐºÐ¾" << endl;
+	cout << "2 - Ð¡Ñ€ÐµÐ´Ð½Ðµ" << endl;
+	cout << "3 - Ð¡Ð»Ð¾Ð¶Ð½Ð¾" << endl;
 	cin >> Uroven;
 	cout << endl;
 	int c = 0;
@@ -70,10 +70,10 @@ void menu() {
 			}
 			else {
 
-				cout << "Ââåäèòå óðîâåíü ñëîæíîñòè: " << endl << endl;
-				cout << "1 - Ëåãêî" << endl;
-				cout << "2 - Ñðåäíå" << endl;
-				cout << "3 - Ñëîæíî" << endl;
+				cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑƒÑ€Ð¾Ð²ÐµÐ½ÑŒ ÑÐ»Ð¾Ð¶Ð½Ð¾ÑÑ‚Ð¸: " << endl << endl;
+				cout << "1 - Ð›ÐµÐ³ÐºÐ¾" << endl;
+				cout << "2 - Ð¡Ñ€ÐµÐ´Ð½Ðµ" << endl;
+				cout << "3 - Ð¡Ð»Ð¾Ð¶Ð½Ð¾" << endl;
 				cout << endl;
 
 				cin >> Uroven;
